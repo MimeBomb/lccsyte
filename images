@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>images page</title>
+  
+  <link rel="shortcut icon" href="favicon.ico">
+  <style>
+    body {
+      background-image: url('dracula.jpeg');
+
+      
+    }
+
+    .picture {
+      background-image: url('dracula.jpeg');
+      width: 700px;
+      height: 700px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="picture"></div>
+
+  <img src="john pork.jpeg" alt="stupid pig">
+
+
+</body>
+
+</html>
