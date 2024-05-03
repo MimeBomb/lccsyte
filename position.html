@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<style>
+div {
+  background-color: blueviolet;
+width: 400px;
+height: 200px;
+padding: 50px;
+margin: 50px;
+border: 10px;
+}
+
+.static{
+  position: static;
+  z-index: -500;
+}
+.relative {
+
+
+  position: relative;
+  left: 200px;
+  top: -150px;
+  z-index: -100;
+}
+
+.fixed {
+  position: fixed;
+ 
+}
+.absolute {
+  position: absolute;
+  right: 0;
+
+}
+.sticky{
+  position: sticky;
+  top: 100px;
+}
+
+
+</style>
+<head>
+
+<body>
+  <div class="sticky">
+  <p>sticky box</p>
+</div>
+
+  <div class="static">
+<p>static box</p>
+  </div>
+
+  <div class="relative">
+  <p>relative box</p>
+</div>
+  <div class="fixed">
+  <p>fixed box</p>
+  </div>
+
+  <div class="absolute">
+  <p> absoulue box</p>
+</div>
